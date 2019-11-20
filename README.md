@@ -5,3 +5,4 @@ i created it to make a character walk randomly alongs curves.
 As example download the .py and the the blender file.open blender file and in the Scripting tab open the .py and run it.
 for the curves use bezier or nurbs and not poly
 here a test but i have to check some problems:https://youtu.be/wIDnOaysS40
+I have made another version which use followpath constraint:https://youtu.be/0rgyKayiCyY
