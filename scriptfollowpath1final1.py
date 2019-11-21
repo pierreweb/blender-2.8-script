@@ -84,6 +84,7 @@ def calculate_coords(objs, step):
         
         curve_name = obj.name
         curve_length = get_length(obj) #print("curve_length=",curve_length)
+        #it s wrong here U is beetwen pair of control node not for the entire curve need correction
         resolution_U = int(round(curve_length/(pas*4)))
         points_on_curves.append(get_coord(resolution_U, obj))
         print("obj.name:",obj.name,"U=",resolution_U)
